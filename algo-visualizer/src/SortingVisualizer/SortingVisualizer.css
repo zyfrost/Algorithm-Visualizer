@@ -1,0 +1,20 @@
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  margin: 5px;
+  height: 1px 20px;
+  
+ 
+}
+
+.array-bar {
+  width: 4px;
+  background-color: turquoise;
+  margin: 0px 2px;
+  border: 1px solid #000;
+  transition: background-color 0.3s ease;
+}
+
+.array-bar:hover {
+  background-color: orange;
+}
